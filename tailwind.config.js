@@ -6,9 +6,12 @@ module.exports = withMT({
   theme: {
     extend: {
       colors: {
-        'cv-primary-color': '#1A1A1A',
-        'cv-secondary-color': '#151515',
         'cv-tertiary-color': '#BDBDBD',
+        'cv-borders-color': 'rgb(15 118 110)',
+        'cv-color-1': '#BDBDBD',
+        'cv-color-2': 'rgb(15 118 110)',
+        'cv-color-3': 'rgb(17 24 39)',
+        'cv-color-4': 'rgb(3 7 18)',
       },
       fontFamily: {
         'main': ['Arial'],

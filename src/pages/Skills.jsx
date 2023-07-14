@@ -1,9 +1,4 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-} from "@material-tailwind/react";
+import { Card, CardHeader, CardBody, Typography } from "@material-tailwind/react";
 import { CheckIcon } from "@heroicons/react/24/outline";
 import PageTitle from "../components/PageTitle.jsx";
 import PageBody from "../components/PageBody.jsx";
@@ -16,7 +11,7 @@ const skills = [
 
 const Main = () => {
   return (
-    <div className="header text-center bg-cv-secondary-color ">
+    <div className="header text-center bg-cv-color-3">
       <PageTitle title="Skills" />
       <PageBody content={
         <div className="grid grid-cols-3 self-center">
@@ -31,7 +26,7 @@ const Main = () => {
                 floated={false}
                 shadow={false}
                 color="transparent"
-                className="m-0 mb-8 rounded-none border-b border-gray-700 pb-8 text-center"
+                className="m-0 mb-8 rounded-none border-b border-cv-borders-color pb-8 text-center"
               >
                 <Typography
                   variant="h1"
@@ -44,7 +39,7 @@ const Main = () => {
                 <ul className="flex flex-col gap-4">
                   {skillItem.items.map((item, index) => (
                     <li key={index} className="flex items-center gap-4">
-                      <span className="rounded-full border-2 border-cv-tertiary-color p-1">
+                      <span className="rounded-full border-2 border-cv-borders-color p-1">
                         <CheckIcon strokeWidth={2} className="h-3 w-3 text-cv-tertiary-color" />
                       </span>
                       <Typography className="font-normal text-cv-tertiary-color">{ item }</Typography>

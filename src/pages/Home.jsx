@@ -3,7 +3,7 @@ import PageBody from "../components/PageBody.jsx";
 
 const Home = () => {
   return (
-    <div className="header text-center bg-cv-secondary-color text-cv-tertiary-color">
+    <div className="header text-center bg-cv-color-3 text-cv-tertiary-color">
       <PageTitle title="Home" />
       <PageBody content={<div className="p-3 overflow-hidden shadow sm:rounded-lg grid grid-cols-2">
         <div>
