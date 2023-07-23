@@ -12,9 +12,8 @@ const Navbar = () => {
     <nav>
       <List className="text-white gap-0">
         {menuItems.map((item, index) => (
-          <Link to={item.path}>
+          <Link key={index} to={item.path}>
             <ListItem
-              key={index}
               className={
                 'bg-transparent rounded-none border-gray-700 ' +
                 'hover:bg-transparent hover:pl-6 hover:border-b hover:border-t hover:text-cv-color-2 ' +

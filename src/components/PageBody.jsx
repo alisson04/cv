@@ -1,5 +1,5 @@
 const PageBody = ({ content }) => {
-  return (<div className="h-screen-90 p-3 text-gray-400">{ content }</div>)
+  return (<div className="h-screen-90 text-gray-400 default-radial-gradient-1">{ content }</div>)
 }
 
 export default PageBody

@@ -5,7 +5,7 @@ import PageBody from "../components/PageBody.jsx";
 
 const skills = [
   {"title": "FRONTEND", "items": ['HTML', 'JavaScript', 'CSS', 'VUE.JS', 'Bootstrap', 'jQuery', 'Tailwindcss']},
-  {"title": "BACKEND", "items": ['PHP', 'Laravel', 'CAKEPHP', 'Unit Testing', 'MYSQL', 'DOCKER', 'API']},
+  {"title": "BACKEND", "items": ['PHP', 'Laravel', 'CAKEPHP', 'Unit Testing', 'MYSQL', 'DOCKER', 'REST API', 'DocuSign']},
   {"title": "OTHER", "items": ['Scrum', 'Code Review', 'Jira', 'Bitbucket', 'Github']}
 ]
 
@@ -14,7 +14,7 @@ const Main = () => {
     <div className="header text-center bg-cv-color-3">
       <PageTitle title="Skills" />
       <PageBody content={
-        <div className="grid grid-cols-3 self-center">
+        <div className="flex justify-between">
           {skills.map((skillItem, typeIndex) => (
             <Card
               key={typeIndex}
