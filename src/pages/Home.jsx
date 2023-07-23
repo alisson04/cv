@@ -8,7 +8,7 @@ const assessments = [
   {"title": "CSS assessment", "desc": "Top 5% of 1.6M"},
 ]
 
-const skillTime = [
+const skills = [
   {title: 'Backend:', desc: ' PHP + Laravel + MySQL + Docker'},
   {title: 'Frontend:', desc: 'Vue + Tailwind + Bootstrap + npm'},
   {title: 'Practices:', desc: 'Scrum + SOLID + GIT + Tests'}
@@ -26,7 +26,7 @@ const Home = () => {
 
               <div className="text-1xl">
                 <p className="grid grid-cols-1">
-                  {skillTime.map((skillTime, index) => (
+                  {skills.map((skillTime, index) => (
                     <span key={ index} className="pr-5 text-stroke-black">
                       { skillTime.title }
                       <span className="text-cv-borders-color font-bold "> &#123;&#123; </span>
