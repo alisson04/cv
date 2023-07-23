@@ -11,6 +11,6 @@
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
-.text-stroke-red {
-    text-shadow: -1px -1px 0 black, 1px -1px 0 #612937, -1px 1px 0 black, 1px 1px 0 black;
+.text-stroke-white {
+    text-shadow: -1px -1px 0 #612937, 1px -1px 0 #612937, -1px 1px 0 #612937, 1px 1px 0 #612937;
 }
