@@ -8,7 +8,7 @@ const Menu = () => {
       <div>
         <div className="flex justify-center p-9">
           <Avatar
-            src="/public/img/profile.jpg"
+            src="/img/profile.jpg"
             alt="avatar"
             withBorder={true}
             className="p-0.5 border-cv-color-2"
