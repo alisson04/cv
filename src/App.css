@@ -14,3 +14,7 @@
 .text-stroke-white {
     text-shadow: -1px -1px 0 #612937, 1px -1px 0 #612937, -1px 1px 0 #612937, 1px 1px 0 #612937;
 }
+
+section {
+    height: 100vh;
+}

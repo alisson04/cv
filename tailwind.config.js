@@ -12,6 +12,7 @@ module.exports = withMT({
         'cv-color-2': '#ffffff',
         'cv-color-3': '#030712',
         'cv-color-4': '#030712',
+        'cv-color-5': '#1A1A1A',
       },
       fontFamily: {
         'main': ['Arial'],
