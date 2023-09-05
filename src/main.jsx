@@ -9,7 +9,6 @@ import {
 
 import Home from "./pages/Home"
 import Error from "./pages/Error"
-import Skills from "./pages/Skills";
 
 const router = createBrowserRouter([
   {
@@ -17,14 +16,7 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Error />,
     children: [
-      {
-        path: "/",
-        element: <Home />
-      },
-      {
-        path: "skills",
-        element: <Skills />
-      },
+      { path: "/", element: <Home /> },
     ]
   },
 ])

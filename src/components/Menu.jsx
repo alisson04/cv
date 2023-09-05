@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Avatar, Button } from "@material-tailwind/react";
-import Navbar from "./Navbar.jsx";
+import NavbarScroll from "./NavbarScroll";
 
 const Menu = () => {
   return (
-    <div className="menu h-screen bg-cv-color-4 grid grid-cols-1 content-between border-r border-cv-borders-color">
+    <div className="menu fixed h-screen bg-cv-color-4 grid grid-cols-1 content-between border-r border-cv-borders-color w-1/6">
       <div>
         <div className="flex justify-center p-9">
           <Avatar
@@ -21,7 +21,7 @@ const Menu = () => {
           <h2 className="text-md">PHP Full Stack Developer</h2>
         </div>
 
-        <Navbar />
+        <NavbarScroll />
       </div>
       <div className="p-4 border-t border-cv-borders-color">
         <a

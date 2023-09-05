@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardBody, Typography } from "@material-tailwind/react";
 import { CheckIcon } from "@heroicons/react/24/outline";
-import PageTitle from "../components/PageTitle.jsx";
-import PageBody from "../components/PageBody.jsx";
+import PageTitle from "../PageTitle.jsx";
+import PageBody from "../PageBody.jsx";
 
 const skills = [
   {"title": "FRONTEND", "items": ['HTML', 'JavaScript', 'CSS', 'VUE.JS', 'Bootstrap', 'jQuery', 'Tailwindcss']},
